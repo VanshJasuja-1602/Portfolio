@@ -1,7 +1,7 @@
 "use client";
 
 import React from 'react';
-import { FaGithub, FaTwitter, FaLinkedin } from 'react-icons/fa';
+import { FaGithub, FaTwitter, FaLinkedin, FaInstagram } from 'react-icons/fa';
 
 export const Footer = () => {
   return (
@@ -15,14 +15,14 @@ export const Footer = () => {
         </div>
 
         <div className="flex items-center gap-6">
-          <a href="#" className="text-white/50 hover:text-white transition-colors hoverable">
+          <a href="https://github.com/VanshJasuja-1602" className="text-white/50 hover:text-white transition-colors hoverable">
             <FaGithub size={20} />
           </a>
           <a href="https://linkedin.com/in/vansh-jasuja-93544a344" target="_blank" rel="noreferrer" className="text-white/50 hover:text-white transition-colors hoverable">
             <FaLinkedin size={20} />
           </a>
-          <a href="#" className="text-white/50 hover:text-white transition-colors hoverable">
-            <FaTwitter size={20} />
+          <a href="https://www.instagram.com/vanshjasuja_16/" className="text-white/50 hover:text-white transition-colors hoverable">
+            <FaInstagram size={20} />
           </a>
         </div>
 

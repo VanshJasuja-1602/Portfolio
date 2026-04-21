@@ -8,12 +8,20 @@ import { FaGithub } from 'react-icons/fa';
 
 const projects = [
   {
+    title: 'DeathByAI',
+    description: 'An AI-powered Bias Detection Tool that analyzes healthcare and demographic datasets for fairness. Detects disparities in gender, age, and approval rates, generating detailed fairness reports and heatmaps to ensure ethical AI deployment.',
+    image: '/projects/deathbyai.png',
+    tags: ['Python', 'Streamlit', 'ML Fairness', 'Data Analysis', 'Ethics'],
+    link: '#',
+    github: 'https://github.com/VanshJasuja-1602/deadthByAI'
+  },
+  {
     title: 'Beyond Borders',
     description: 'A full-stack travel booking web application allowing users to explore destinations, view packages, and book trips interactively using a complete MERN environment.',
     image: '/project.jpg',
     tags: ['MongoDB', 'Express.js', 'React', 'Node.js', 'HTML/CSS/JS'],
     link: '#',
-    github: '#'
+    github: 'https://github.com/VanshJasuja-1602/Beyond-Borders'
   }
 ];
 

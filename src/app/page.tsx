@@ -3,6 +3,7 @@ import { AboutMe } from "@/components/sections/AboutMe";
 import { Skills } from "@/components/sections/Skills";
 import { Projects } from "@/components/sections/Projects";
 import { Experience } from "@/components/sections/Experience";
+import { EventsAchievements } from "@/components/sections/EventsAchievements";
 import { Certifications } from "@/components/sections/Certifications";
 import { Contact } from "@/components/sections/Contact";
 import { Footer } from "@/components/sections/Footer";
@@ -15,6 +16,7 @@ export default function Home() {
       <Skills />
       <Projects />
       <Experience />
+      <EventsAchievements />
       <Certifications />
       <Contact />
       <Footer />

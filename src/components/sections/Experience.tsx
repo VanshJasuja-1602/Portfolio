@@ -5,7 +5,7 @@ import { motion } from 'framer-motion';
 
 const timeline = [
   {
-    role: "Specialization in Data Science",
+    role: "(BCA)Specialization in Data Science",
     entity: "Manipal University Jaipur",
     period: "Expected 2027",
     description: "Currently pursuing a degree with a stellar 9.8 CGPA. Core learning involves Data Science Fundamentals, Statistics, Database Management Systems, and Machine Learning."

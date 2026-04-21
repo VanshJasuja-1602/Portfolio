@@ -7,6 +7,13 @@ import { Award, CheckCircle } from 'lucide-react';
 
 const certifications = [
   {
+    title: 'Hackathon Metaverse 2.0 Participation Certificate',
+    organization: "St. Xavier's College Jaipur (Xavier Institute of Management & Informatics)",
+    year: '2026',
+    description: 'Participated in the Hackathon at Metaverse 2.0, demonstrating innovation and collaborative problem-solving in a high-pressure environment.',
+    skills: ['Hackathon', 'Problem Solving', 'Teamwork', 'Rapid Development'],
+  },
+  {
     title: 'Data Analytics Job Simulation',
     organization: 'Deloitte (Forage)',
     year: '2026',
