@@ -2,6 +2,7 @@
 
 import React from 'react';
 import { FaGithub, FaTwitter, FaLinkedin, FaInstagram } from 'react-icons/fa';
+import { FileText } from 'lucide-react';
 
 export const Footer = () => {
   return (
@@ -23,6 +24,15 @@ export const Footer = () => {
           </a>
           <a href="https://www.instagram.com/vanshjasuja_16/" className="text-white/50 hover:text-white transition-colors hoverable">
             <FaInstagram size={20} />
+          </a>
+          <a 
+            href="https://drive.google.com/file/d/1D_WgaeuQog-CS9aNqrYY8dMf1gzDCyH1/view?usp=sharing" 
+            target="_blank" 
+            rel="noopener noreferrer" 
+            className="text-white/50 hover:text-white transition-colors hoverable text-sm font-medium"
+            title="Resume"
+          >
+            Resume
           </a>
         </div>
 

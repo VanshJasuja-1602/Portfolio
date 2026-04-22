@@ -3,7 +3,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { MagneticButton } from '../ui/MagneticButton';
-import { ArrowRight } from 'lucide-react';
+import { ArrowRight, FileText } from 'lucide-react';
 
 export const Hero = () => {
   return (
@@ -55,12 +55,21 @@ export const Hero = () => {
         >
           <a href="#projects">
             <MagneticButton className="flex items-center gap-2 bg-white text-black hover:bg-white/90">
-              View Work <ArrowRight size={18} />
+              View Work
             </MagneticButton>
           </a>
           <a href="#contact">
             <MagneticButton className="flex items-center gap-2">
               Contact Me
+            </MagneticButton>
+          </a>
+          <a 
+            href="https://drive.google.com/file/d/1D_WgaeuQog-CS9aNqrYY8dMf1gzDCyH1/view?usp=sharing" 
+            target="_blank" 
+            rel="noopener noreferrer"
+          >
+            <MagneticButton className="flex items-center gap-2">
+              Resume
             </MagneticButton>
           </a>
         </motion.div>

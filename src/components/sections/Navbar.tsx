@@ -10,6 +10,7 @@ const links = [
   { name: 'Projects', href: '#projects' },
   { name: 'Journey', href: '#journey' },
   { name: 'Certifications', href: '#certifications' },
+  { name: 'Resume', href: 'https://drive.google.com/file/d/1D_WgaeuQog-CS9aNqrYY8dMf1gzDCyH1/view?usp=sharing' },
   { name: 'Contact', href: '#contact' },
 ];
 
@@ -45,6 +46,8 @@ export const Navbar = () => {
             <a
               key={link.name}
               href={link.href}
+              target={link.name === 'Resume' ? '_blank' : undefined}
+              rel={link.name === 'Resume' ? 'noopener noreferrer' : undefined}
               className="text-sm text-white/70 hover:text-white transition-colors hoverable"
             >
               {link.name}
@@ -78,9 +81,11 @@ export const Navbar = () => {
           >
             <div className="flex flex-col items-center py-6 gap-6">
               {links.map((link) => (
-                <a
+                 <a
                   key={link.name}
                   href={link.href}
+                  target={link.name === 'Resume' ? '_blank' : undefined}
+                  rel={link.name === 'Resume' ? 'noopener noreferrer' : undefined}
                   onClick={() => setMobileMenuOpen(false)}
                   className="text-lg text-white/80 hover:text-white"
                 >

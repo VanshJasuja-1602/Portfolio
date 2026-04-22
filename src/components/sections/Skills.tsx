@@ -7,16 +7,16 @@ import { SiPython, SiReact, SiNodedotjs, SiMongodb, SiExpress, SiCplusplus, SiNu
 import { Database, BarChart3, BrainCircuit } from 'lucide-react'; 
 
 const skills = [
-  { name: 'Python', icon: <SiPython size={32} /> },
-  { name: 'SQL & DBs', icon: <Database size={32} /> },
-  { name: 'Tableau', icon: <BarChart3 size={32} /> },
-  { name: 'Scikit-learn', icon: <BrainCircuit size={32} /> },
-  { name: 'MongoDB', icon: <SiMongodb size={32} /> },
-  { name: 'Express.js', icon: <SiExpress size={32} /> },
-  { name: 'React.js', icon: <SiReact size={32} /> },
-  { name: 'Node.js', icon: <SiNodedotjs size={32} /> },
-  { name: 'JavaScript', icon: <SiJavascript size={32} /> },
-  { name: 'C++', icon: <SiCplusplus size={32} /> },
+  { name: 'Python', icon: <SiPython size={32} />, color: '#3776AB' },
+  { name: 'SQL & DBs', icon: <Database size={32} />, color: '#00758F' },
+  { name: 'Tableau', icon: <BarChart3 size={32} />, color: '#E97627' },
+  { name: 'Scikit-learn', icon: <BrainCircuit size={32} />, color: '#F7931E' },
+  { name: 'MongoDB', icon: <SiMongodb size={32} />, color: '#4DB33D' },
+  { name: 'Express.js', icon: <SiExpress size={32} />, color: '#808080' },
+  { name: 'React.js', icon: <SiReact size={32} />, color: '#61DAFB' },
+  { name: 'Node.js', icon: <SiNodedotjs size={32} />, color: '#339933' },
+  { name: 'JavaScript', icon: <SiJavascript size={32} />, color: '#F7DF1E' },
+  { name: 'C++', icon: <SiCplusplus size={32} />, color: '#00599C' },
 ];
 
 const containerVariants = {
@@ -71,11 +71,23 @@ export const Skills = () => {
         >
           {skills.map((skill) => (
             <motion.div key={skill.name} variants={itemVariants}>
-              <GlassCard className="flex flex-col items-center justify-center p-6 gap-4 hover:-translate-y-2 transition-transform duration-300 h-full">
-                <div className="text-white/70 relative z-10 group-hover:text-white transition-colors">
-                  {skill.icon}
+              <GlassCard className="flex flex-col items-center justify-center p-6 gap-4 hover:-translate-y-2 transition-all duration-300 h-full group">
+                <div 
+                  className="relative z-10 transition-all duration-300 transform group-hover:scale-110"
+                  style={{ color: skill.color }}
+                >
+                  {/* Subtle glow effect on hover */}
+                  <div 
+                    className="absolute inset-0 blur-xl opacity-0 group-hover:opacity-20 transition-opacity duration-300"
+                    style={{ backgroundColor: skill.color }}
+                  />
+                  <div className="relative">
+                    {skill.icon}
+                  </div>
                 </div>
-                <span className="font-medium text-sm text-center text-white/70">{skill.name}</span>
+                <span className="font-medium text-sm text-center text-white/70 group-hover:text-white transition-colors">
+                  {skill.name}
+                </span>
               </GlassCard>
             </motion.div>
           ))}

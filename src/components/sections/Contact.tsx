@@ -31,11 +31,11 @@ export const Contact = () => {
             <div className="flex flex-col sm:flex-row items-center justify-center gap-6 mb-12">
               <a href="mailto:vanshjasuja394@gmail.com">
                 <MagneticButton className="flex items-center gap-2 bg-white text-black hover:bg-white/90 px-8 py-4 text-lg">
-                  Send an Email <Mail size={20} />
+                  Send an Email
                 </MagneticButton>
               </a>
               <a href="https://linkedin.com/in/vansh-jasuja-93544a344" target="_blank" rel="noreferrer" className="flex items-center gap-2 text-white/70 hover:text-white transition-colors hoverable font-medium bg-white/5 px-6 py-4 rounded-full border border-white/10 hover:border-white/30">
-                Connect on LinkedIn <ArrowUpRight size={18} />
+                Connect on LinkedIn
               </a>
             </div>
 
