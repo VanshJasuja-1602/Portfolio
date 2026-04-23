@@ -53,7 +53,7 @@ export const Skills = () => {
           </p>
 
           <div className="flex flex-wrap justify-center gap-4 max-w-3xl mx-auto mb-16">
-            {['Data Analysis & Visualization — 85%', 'Python Programming — 80%', 'SQL & Database Management — 75%', 'Machine Learning Fundamentals — 70%', 'MERN Stack Development — 80%', 'Data Structures & Algorithms — 75%'].map(skill => (
+            {['Data Analysis & Visualization', 'Python Programming', 'SQL & Database Management', 'Machine Learning Fundamentals', 'MERN Stack Development', 'Data Structures & Algorithms'].map(skill => (
               <span key={skill} className="bg-white/10 border border-white/20 text-white/80 px-4 py-2 rounded-full text-sm font-medium">
                 {skill}
               </span>

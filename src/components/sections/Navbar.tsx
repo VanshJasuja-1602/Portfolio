@@ -31,13 +31,16 @@ export const Navbar = () => {
       initial={{ y: -100 }}
       animate={{ y: 0 }}
       transition={{ duration: 0.8, ease: [0.16, 1, 0.3, 1] }}
-      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
-        scrolled ? 'bg-black/50 backdrop-blur-xl border-b border-white/10 py-4' : 'bg-transparent py-6'
-      }`}
+      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${scrolled ? 'bg-black/50 backdrop-blur-xl border-b border-white/10 py-0' : 'bg-transparent py-0'
+        }`}
     >
       <div className="container mx-auto px-6 flex items-center justify-between">
-        <a href="#home" className="text-xl font-bold font-[family-name:var(--font-space-grotesk)] text-gradient">
-          Portfolio.
+        <a href="#home" className="flex items-center hoverable">
+          <img
+            src="/logo_white.png"
+            alt="Vansh Jasuja Logo"
+            className={`${scrolled ? 'h-12' : 'h-16'} w-auto transition-all duration-500 mt-1`}
+          />
         </a>
 
         {/* Desktop Nav */}
@@ -81,7 +84,7 @@ export const Navbar = () => {
           >
             <div className="flex flex-col items-center py-6 gap-6">
               {links.map((link) => (
-                 <a
+                <a
                   key={link.name}
                   href={link.href}
                   target={link.name === 'Resume' ? '_blank' : undefined}

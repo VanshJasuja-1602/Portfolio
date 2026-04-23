@@ -11,14 +11,6 @@ export const Hero = () => {
       <div className="bg-glow" />
 
       <div className="container mx-auto px-6 relative z-10 flex flex-col items-center text-center">
-        <motion.div
-          initial={{ opacity: 0, y: 30 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.8, ease: [0.16, 1, 0.3, 1] }}
-          className="inline-block px-4 py-1.5 rounded-full border border-white/10 bg-white/5 backdrop-blur-md mb-6"
-        >
-          <span className="text-sm font-medium text-white/80">Available for Internships</span>
-        </motion.div>
 
         <motion.h1
           initial={{ opacity: 0, y: 40 }}

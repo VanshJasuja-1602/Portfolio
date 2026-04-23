@@ -10,7 +10,10 @@ const spaceGrotesk = Space_Grotesk({ subsets: ["latin"], variable: "--font-space
 
 export const metadata: Metadata = {
   title: "Vansh Jasuja",
-  description: "Aspiring Data Scientist and MERN Stack Developer building data-driven solutions and modern web applications.",
+  description: "Data Scientist and AI Enthusiast building AI Solutions and ML Projects.",
+  icons: {
+    icon: "/logo_white.png",
+  },
 };
 
 export default function RootLayout({
