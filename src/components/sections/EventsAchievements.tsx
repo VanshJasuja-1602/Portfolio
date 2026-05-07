@@ -35,6 +35,25 @@ interface EventItem {
 
 const events: EventItem[] = [
   {
+    id: 'celebal-internship',
+    type: 'event',
+    title: 'Data Science & ML Internship – Celebal Technologies',
+    organization: 'Celebal Technologies',
+    location: 'Jaipur, India',
+    date: 'May 2026 - August 2026',
+    images: ['/images/events/celebal-internship.jpeg'], 
+    description: "Started a specialized Data Science and Machine Learning internship at Celebal Technologies. Working on real-world projects that involve predictive modeling, data engineering, and deploying AI solutions to solve complex business problems.",
+    highlights: [
+      'Selected for the summer internship program in Data Science & ML',
+      'Implementing end-to-end machine learning pipelines using industry-standard tools',
+      'Collaborating with senior data scientists on enterprise-level AI solutions'
+    ],
+    tags: ['Internship', 'Data Science', 'Machine Learning'],
+    badge: '💼 Intern',
+    accentColor: '#3b82f6', // Blue
+    icon: <Cpu className="text-blue-400" size={22} />
+  },
+  {
     id: 'metaverse-hackathon',
     type: 'featured',
     title: '1st Place Winner – Hackathon Metaverse 2.0',

@@ -5,6 +5,12 @@ import { motion } from 'framer-motion';
 
 const timeline = [
   {
+    role: "Data Science and ML Intern",
+    entity: "Celebal Technologies",
+    period: "May 2026 - Aug 2026",
+    description: "Contributing to data-driven solutions and machine learning models. Gaining hands-on experience with industry-standard tools and methodologies in the field of Data Science and ML."
+  },
+  {
     role: "(BCA)Specialization in Data Science",
     entity: "Manipal University Jaipur",
     period: "Expected 2027",
