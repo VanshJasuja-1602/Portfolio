@@ -44,7 +44,7 @@ export const AboutMe = () => {
           >
             <div className="aspect-[4/5] rounded-3xl overflow-hidden relative mx-auto">
               <img
-                src="/vansh.jpg"
+                src="/vansh.png"
                 alt="Vansh Jasuja Portrait"
                 className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-700"
                 onError={(e) => {
