@@ -46,7 +46,7 @@ export const AboutMe = () => {
               <img
                 src="/vansh.png"
                 alt="Vansh Jasuja Portrait"
-                className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-700"
+                className="w-full h-full object-cover transition-all duration-700"
                 onError={(e) => {
                   e.currentTarget.src = "https://images.unsplash.com/photo-1542385151-efd9000785a0?q=80&w=800&auto=format&fit=crop";
                 }}
