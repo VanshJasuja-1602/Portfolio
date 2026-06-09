@@ -3,14 +3,32 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { GlassCard } from '../ui/GlassCard';
-import { SiPython, SiReact, SiNodedotjs, SiMongodb, SiExpress, SiCplusplus, SiNumpy, SiJavascript } from 'react-icons/si';
+import { 
+  SiPython, 
+  SiReact, 
+  SiNodedotjs, 
+  SiMongodb, 
+  SiExpress, 
+  SiCplusplus, 
+  SiNumpy, 
+  SiJavascript,
+  SiPandas,
+  SiTensorflow,
+  SiPytorch,
+  SiJupyter
+} from 'react-icons/si';
 import { Database, BarChart3, BrainCircuit } from 'lucide-react'; 
 
 const skills = [
   { name: 'Python', icon: <SiPython size={32} />, color: '#3776AB' },
+  { name: 'NumPy', icon: <SiNumpy size={32} />, color: '#013243' },
+  { name: 'Pandas', icon: <SiPandas size={32} />, color: '#150458' },
+  { name: 'Scikit-learn', icon: <BrainCircuit size={32} />, color: '#F7931E' },
+  { name: 'TensorFlow', icon: <SiTensorflow size={32} />, color: '#FF6F00' },
+  { name: 'PyTorch', icon: <SiPytorch size={32} />, color: '#EE4C2C' },
   { name: 'SQL & DBs', icon: <Database size={32} />, color: '#00758F' },
   { name: 'Tableau', icon: <BarChart3 size={32} />, color: '#E97627' },
-  { name: 'Scikit-learn', icon: <BrainCircuit size={32} />, color: '#F7931E' },
+  { name: 'Jupyter', icon: <SiJupyter size={32} />, color: '#F37626' },
   { name: 'MongoDB', icon: <SiMongodb size={32} />, color: '#4DB33D' },
   { name: 'Express.js', icon: <SiExpress size={32} />, color: '#808080' },
   { name: 'React.js', icon: <SiReact size={32} />, color: '#61DAFB' },
@@ -53,7 +71,7 @@ export const Skills = () => {
           </p>
 
           <div className="flex flex-wrap justify-center gap-4 max-w-3xl mx-auto mb-16">
-            {['Data Analysis & Visualization', 'Python Programming', 'SQL & Database Management', 'Machine Learning Fundamentals', 'MERN Stack Development', 'Data Structures & Algorithms'].map(skill => (
+            {['Data Analysis & Visualization', 'Python & Scientific Computing', 'SQL & Database Management', 'Machine Learning & Deep Learning', 'Neural Networks & AI', 'MERN Stack Development', 'Data Structures & Algorithms'].map(skill => (
               <span key={skill} className="bg-white/10 border border-white/20 text-white/80 px-4 py-2 rounded-full text-sm font-medium">
                 {skill}
               </span>
