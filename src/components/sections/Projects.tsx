@@ -12,7 +12,7 @@ const projects = [
     description: 'A machine learning-powered application designed to analyze visitor behavior, session patterns, and engagement metrics to estimate the probability of a customer completing a purchase. Utilizes classification algorithms to help e-commerce platforms optimize conversions.',
     image: '/projects/purchaseiq.png',
     tags: ['Machine Learning', 'Classification', 'Databricks', 'Python', 'Data Analysis'],
-    link: '#',
+    link: 'https://purchaseiq.netlify.app/',
     github: 'https://github.com/VanshJasuja-1602/PurchaseIQ'
   },
   {
