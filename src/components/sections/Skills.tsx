@@ -15,7 +15,12 @@ import {
   SiPandas,
   SiTensorflow,
   SiPytorch,
-  SiJupyter
+  SiJupyter,
+  SiKeras,
+  SiScipy,
+  SiOpencv,
+  SiR,
+  SiGit
 } from 'react-icons/si';
 import { Database, BarChart3, BrainCircuit } from 'lucide-react'; 
 
@@ -26,9 +31,14 @@ const skills = [
   { name: 'Scikit-learn', icon: <BrainCircuit size={32} />, color: '#F7931E' },
   { name: 'TensorFlow', icon: <SiTensorflow size={32} />, color: '#FF6F00' },
   { name: 'PyTorch', icon: <SiPytorch size={32} />, color: '#EE4C2C' },
+  { name: 'Keras', icon: <SiKeras size={32} />, color: '#D00000' },
+  { name: 'SciPy', icon: <SiScipy size={32} />, color: '#8CAAE6' },
+  { name: 'OpenCV', icon: <SiOpencv size={32} />, color: '#5C3EE8' },
+  { name: 'R', icon: <SiR size={32} />, color: '#276C19' },
   { name: 'SQL & DBs', icon: <Database size={32} />, color: '#00758F' },
   { name: 'Tableau', icon: <BarChart3 size={32} />, color: '#E97627' },
   { name: 'Jupyter', icon: <SiJupyter size={32} />, color: '#F37626' },
+  { name: 'Git', icon: <SiGit size={32} />, color: '#F05032' },
   { name: 'MongoDB', icon: <SiMongodb size={32} />, color: '#4DB33D' },
   { name: 'Express.js', icon: <SiExpress size={32} />, color: '#808080' },
   { name: 'React.js', icon: <SiReact size={32} />, color: '#61DAFB' },
