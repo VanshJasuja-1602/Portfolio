@@ -16,6 +16,14 @@ const projects = [
     github: 'https://github.com/VanshJasuja-1602/PurchaseIQ'
   },
   {
+    title: 'Tic Tac Toe',
+    description: 'An interactive, sleek game built using React and styled with a modern glassmorphic UI. Features real-time turn tracking, state management for moves, and instant game resets.',
+    image: '/projects/tictactoe.png',
+    tags: ['React.js', 'CSS Grid', 'Interactivity', 'Web Game'],
+    link: 'https://vanshjasuja.netlify.app/',
+    github: 'https://github.com/VanshJasuja-1602/TicTacToe'
+  },
+  {
     title: 'DeathByAI',
     description: 'An AI-powered Bias Detection Tool that analyzes healthcare and demographic datasets for fairness. Detects disparities in gender, age, and approval rates, generating detailed fairness reports and heatmaps to ensure ethical AI deployment.',
     image: '/projects/deathbyai.png',
