@@ -8,6 +8,14 @@ import { FaGithub } from 'react-icons/fa';
 
 const projects = [
   {
+    title: 'PurchaseIQ',
+    description: 'A machine learning-powered application designed to analyze visitor behavior, session patterns, and engagement metrics to estimate the probability of a customer completing a purchase. Utilizes classification algorithms to help e-commerce platforms optimize conversions.',
+    image: '/projects/purchaseiq.png',
+    tags: ['Machine Learning', 'Classification', 'Databricks', 'Python', 'Data Analysis'],
+    link: '#',
+    github: 'https://github.com/VanshJasuja-1602/PurchaseIQ'
+  },
+  {
     title: 'DeathByAI',
     description: 'An AI-powered Bias Detection Tool that analyzes healthcare and demographic datasets for fairness. Detects disparities in gender, age, and approval rates, generating detailed fairness reports and heatmaps to ensure ethical AI deployment.',
     image: '/projects/deathbyai.png',
