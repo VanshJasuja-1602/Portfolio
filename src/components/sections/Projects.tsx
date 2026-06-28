@@ -20,7 +20,7 @@ const projects = [
     description: 'An interactive, sleek game built using React and styled with a modern glassmorphic UI. Features real-time turn tracking, state management for moves, and instant game resets.',
     image: '/projects/TicTacToe.png',
     tags: ['React.js', 'CSS Grid', 'Interactivity', 'Web Game'],
-    link: 'https://vanshjasuja.netlify.app/',
+    link: 'https://tic-tac-toooo.netlify.app/',
     github: 'https://github.com/VanshJasuja-1602/TicTacToe'
   },
   {
