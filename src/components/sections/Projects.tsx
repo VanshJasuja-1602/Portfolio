@@ -28,7 +28,7 @@ const projects = [
     description: 'An AI-powered Bias Detection Tool that analyzes healthcare and demographic datasets for fairness. Detects disparities in gender, age, and approval rates, generating detailed fairness reports and heatmaps to ensure ethical AI deployment.',
     image: '/projects/deathbyai.png',
     tags: ['Python', 'Streamlit', 'ML Fairness', 'Data Analysis', 'Ethics'],
-    link: '#',
+    link: 'https://deadthbyai.streamlit.app/',
     github: 'https://github.com/VanshJasuja-1602/deadthByAI'
   },
   {
